@@ -1,0 +1,13 @@
+.dllinkop > a:link { /*アクセスしたことのないリンク*/
+  color:#0000FF;
+}
+.dllinkop >  a:visited { /*アクセスしたことのあるリンク*/
+  color:#6600FF;
+}
+.dllinkop >  a:hover {/*マウスが上に乗っている状態*/
+  color:#FF0099;
+  text-decoration:underline;
+}
+.dllinkop >  a:active {/*クリック中*/
+  color:#33CC00;
+}
